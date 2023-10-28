@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "49d7a36c-9e7b-4250-8a01-0c5d49f4063a",
+		"name": "API-1 - Deleting users from the user list",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16537046",
+		"_collection_link": "https://lively-crater-844094.postman.co/workspace/QA-playground~84850e91-5f07-4ba8-a9d9-b8a44c0c3b06/collection/16537046-49d7a36c-9e7b-4250-8a01-0c5d49f4063a?action=share&source=collection_link&creator=16537046"
+	},
+	"item": [
+		{
+			"name": "https://dev-gs.qa-playground.com/api/v1/users",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsImtpZCI6IldGZlRBQ0hzYUhvQ3VML1MiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNjk5MDkyMTAyLCJpYXQiOjE2OTg0OTIxMDIsImlzcyI6Imh0dHBzOi8vbXlrb3RxYm9ja3p2emFjY2N1Ynouc3VwYWJhc2UuY28vYXV0aC92MSIsInN1YiI6IjM0Njk0NTg1LTc4MmEtNDFhOC04Njk2LWMzMzQ2ZWVhYmExMyIsImVtYWlsIjoia29iYnJhMTZAbWFpbC5ydSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZ2l0aHViIiwicHJvdmlkZXJzIjpbImdpdGh1YiJdfSwidXNlcl9tZXRhZGF0YSI6eyJhdmF0YXJfdXJsIjoiaHR0cHM6Ly9hdmF0YXJzLmdpdGh1YnVzZXJjb250ZW50LmNvbS91LzEwNTU0NjI4ND92PTQiLCJlbWFpbCI6ImtvYmJyYTE2QG1haWwucnUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZnVsbF9uYW1lIjoiS29iYnJhMTYiLCJpc3MiOiJodHRwczovL2FwaS5naXRodWIuY29tIiwibmFtZSI6IktvYmJyYTE2IiwicHJlZmVycmVkX3VzZXJuYW1lIjoia29iYnJhMTYiLCJwcm92aWRlcl9pZCI6IjEwNTU0NjI4NCIsInN1YiI6IjEwNTU0NjI4NCIsInVzZXJfbmFtZSI6ImtvYmJyYTE2In0sInJvbGUiOiJhdXRoZW50aWNhdGVkIiwiYWFsIjoiYWFsMSIsImFtciI6W3sibWV0aG9kIjoib2F1dGgiLCJ0aW1lc3RhbXAiOjE2OTg0OTIxMDJ9XSwic2Vzc2lvbl9pZCI6ImJlM2I1NGE4LWQwMzAtNDVhMy05MzhiLTBiZGQ2YTJmM2NjZCJ9.AErFwg0uOeQO3S89X4vI_ahMk3xvpSJJFRTlDuuQPUw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://dev-gs.qa-playground.com/api/v1/users",
+					"protocol": "https",
+					"host": [
+						"dev-gs",
+						"qa-playground",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dev-gs.qa-playground.com/api/v1/users/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsImtpZCI6IldGZlRBQ0hzYUhvQ3VML1MiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNjk5MDkyMTAyLCJpYXQiOjE2OTg0OTIxMDIsImlzcyI6Imh0dHBzOi8vbXlrb3RxYm9ja3p2emFjY2N1Ynouc3VwYWJhc2UuY28vYXV0aC92MSIsInN1YiI6IjM0Njk0NTg1LTc4MmEtNDFhOC04Njk2LWMzMzQ2ZWVhYmExMyIsImVtYWlsIjoia29iYnJhMTZAbWFpbC5ydSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZ2l0aHViIiwicHJvdmlkZXJzIjpbImdpdGh1YiJdfSwidXNlcl9tZXRhZGF0YSI6eyJhdmF0YXJfdXJsIjoiaHR0cHM6Ly9hdmF0YXJzLmdpdGh1YnVzZXJjb250ZW50LmNvbS91LzEwNTU0NjI4ND92PTQiLCJlbWFpbCI6ImtvYmJyYTE2QG1haWwucnUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZnVsbF9uYW1lIjoiS29iYnJhMTYiLCJpc3MiOiJodHRwczovL2FwaS5naXRodWIuY29tIiwibmFtZSI6IktvYmJyYTE2IiwicHJlZmVycmVkX3VzZXJuYW1lIjoia29iYnJhMTYiLCJwcm92aWRlcl9pZCI6IjEwNTU0NjI4NCIsInN1YiI6IjEwNTU0NjI4NCIsInVzZXJfbmFtZSI6ImtvYmJyYTE2In0sInJvbGUiOiJhdXRoZW50aWNhdGVkIiwiYWFsIjoiYWFsMSIsImFtciI6W3sibWV0aG9kIjoib2F1dGgiLCJ0aW1lc3RhbXAiOjE2OTg0OTIxMDJ9XSwic2Vzc2lvbl9pZCI6ImJlM2I1NGE4LWQwMzAtNDVhMy05MzhiLTBiZGQ2YTJmM2NjZCJ9.AErFwg0uOeQO3S89X4vI_ahMk3xvpSJJFRTlDuuQPUw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev-gs.qa-playground.com/api/v1/users/",
+					"protocol": "https",
+					"host": [
+						"dev-gs",
+						"qa-playground",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dev-gs.qa-playground.com/api/v1/users/85c9cfee-758a-42a6-a70d-438db7cd5d1e",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsImtpZCI6IldGZlRBQ0hzYUhvQ3VML1MiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNjk5MDkyMTAyLCJpYXQiOjE2OTg0OTIxMDIsImlzcyI6Imh0dHBzOi8vbXlrb3RxYm9ja3p2emFjY2N1Ynouc3VwYWJhc2UuY28vYXV0aC92MSIsInN1YiI6IjM0Njk0NTg1LTc4MmEtNDFhOC04Njk2LWMzMzQ2ZWVhYmExMyIsImVtYWlsIjoia29iYnJhMTZAbWFpbC5ydSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZ2l0aHViIiwicHJvdmlkZXJzIjpbImdpdGh1YiJdfSwidXNlcl9tZXRhZGF0YSI6eyJhdmF0YXJfdXJsIjoiaHR0cHM6Ly9hdmF0YXJzLmdpdGh1YnVzZXJjb250ZW50LmNvbS91LzEwNTU0NjI4ND92PTQiLCJlbWFpbCI6ImtvYmJyYTE2QG1haWwucnUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZnVsbF9uYW1lIjoiS29iYnJhMTYiLCJpc3MiOiJodHRwczovL2FwaS5naXRodWIuY29tIiwibmFtZSI6IktvYmJyYTE2IiwicHJlZmVycmVkX3VzZXJuYW1lIjoia29iYnJhMTYiLCJwcm92aWRlcl9pZCI6IjEwNTU0NjI4NCIsInN1YiI6IjEwNTU0NjI4NCIsInVzZXJfbmFtZSI6ImtvYmJyYTE2In0sInJvbGUiOiJhdXRoZW50aWNhdGVkIiwiYWFsIjoiYWFsMSIsImFtciI6W3sibWV0aG9kIjoib2F1dGgiLCJ0aW1lc3RhbXAiOjE2OTg0OTIxMDJ9XSwic2Vzc2lvbl9pZCI6ImJlM2I1NGE4LWQwMzAtNDVhMy05MzhiLTBiZGQ2YTJmM2NjZCJ9.AErFwg0uOeQO3S89X4vI_ahMk3xvpSJJFRTlDuuQPUw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://dev-gs.qa-playground.com/api/v1/users/85c9cfee-758a-42a6-a70d-438db7cd5d1e",
+					"protocol": "https",
+					"host": [
+						"dev-gs",
+						"qa-playground",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"85c9cfee-758a-42a6-a70d-438db7cd5d1e"
+					],
+					"query": [
+						{
+							"key": "{uuid}",
+							"value": "85c9cfee-758a-42a6-a70d-438db7cd5d1e",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
